@@ -1,34 +1,34 @@
 # To-Do-List-App
 
 👋 Hey Connections!
-Hope you're all doing amazing and creating awesome projects! I'm thrilled to introduce my latest build – a sleek and efficient ToDo List App 💻🗂️
+Hope you're doing well and building cool things! I’m excited to share my latest project – a modern and fully responsive ToDo List App 📝💡
 
-💡 Project Title: Form Validation Tracker – Smart Progress Form UI
+💡 Project Title: Smart ToDo Tracker – Daily Task Manager
 
 🧾 Overview
-This interactive, fully responsive ToDo web app makes managing your tasks a breeze. It features real-time input validation, a visually pleasing glassmorphism-inspired interface, and a progress-driven experience that’s both intuitive and enjoyable. Whether you're organizing your day or tracking simple goals, this tool has got you covered!
+This sleek ToDo List App allows users to effortlessly manage daily tasks with features like live editing, deletion, and persistent storage using localStorage. Designed with a stunning glassmorphism UI and smooth transitions, it brings both functionality and style to task tracking. Whether you're planning your day or organizing goals, this app makes it easy and visually appealing.
 
 ✨ Key Features
 
-✅ Add, Edit, and Delete Tasks with Real-Time UI Updates
+✅ Add, Edit & Delete Tasks in Real-Time
 
-✅ Local Storage Integration – Keeps Your List Persistent
+✅ Fully Persistent – Uses LocalStorage for Data Saving
 
-✅ Modern Glassmorphism Design with Hover Animations
+✅ Intuitive Table Layout for Clear Task Management
 
-✅ Responsive Layout – Perfect on All Screen Sizes
+✅ Glassmorphism-Inspired UI with Hover Effects
 
-✅ Clean and User-Friendly Table View with Action Buttons
+✅ 100% Responsive – Seamless on All Devices
 
 🛠 Technologies Used
 
-🧩 HTML5 – Semantic Markup
+🧩 HTML5
 
-🎨 CSS3 – Advanced Styling with Glassmorphism
+🎨 CSS3 (Glass UI Styling & Transitions)
 
-⚙ JavaScript (ES6) – Dynamic DOM Interactions
+⚙ JavaScript (ES6 Logic & DOM Handling)
 
-📦 Bootstrap 5 – Mobile-First Design & Flexibility
+📦 Bootstrap 5 for Responsive Layout
 
-🔗 GitHub Repo: Form-Tracker
-📇 Let’s connect and keep growing together in tech!
+🔗 GitHub Repo: (https://github.com/apt-prog/To-Do-List-App/)
+📇 Let’s connect and share more awesome builds!
