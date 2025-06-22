@@ -1,0 +1,264 @@
+/*  
+Headinf Fonts
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+Paragraph Fonts
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+*/
+
+/* ============================================================================ 
+Body & Universal Styles Css
+=============================================================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#Body {
+  min-height: 100vh;
+  background: linear-gradient(to right, #000099 2%, #660033 85%);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Exo 2", sans-serif;
+  padding: 20px;
+}
+
+/* ============================================================================ 
+  Main_Content Styles Css
+  =============================================================================== */
+#Main_Content {
+  width: 100%;
+  max-width: 900px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+  padding: 30px 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+#Main_Content:hover {
+  box-shadow: 0 0 1rem white;
+}
+
+/* ============================================================================ 
+  Upper_Text Styles Css
+  =============================================================================== */
+.Upper_Text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Upper_Text h2 {
+  font-family: "Exo 2", sans-serif;
+  font-weight: 600;
+  border-left: 4px solid white;
+  border-right: 4px solid white;
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 1.8rem;
+}
+
+.Upper_Text p {
+  font-family: "Roboto Slab", serif;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.HR {
+  width: 100%;
+  height: 1px;
+  background-color: yellow;
+  opacity: 0.8;
+  margin: 20px 0;
+}
+
+#Fenil {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  z-index: 10;
+}
+
+#Fenil:hover {
+  transition: all 0.2 s ease-in-out;
+  box-shadow: 0 0 1rem white;
+  background-color: white;
+  color: black;
+}
+
+/* ============================================================================ 
+  Input_Section Styles Css
+  =============================================================================== */
+.Input_Section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.Input_Section input {
+  flex: 1;
+  min-width: 220px;
+  height: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.394);
+  background: transparent;
+  color: white;
+  padding: 0 10px;
+  border-radius: 4px;
+}
+
+.Input_Section input:focus {
+  box-shadow: 0 0 0.5rem white;
+  border: 1px solid white;
+  transition: all 0.3s;
+}
+
+.Input_Section input::placeholder {
+  color: white;
+  opacity: 0.7;
+}
+
+.Input_Section .Button {
+  height: 40px;
+  border-radius: 5px;
+  padding: 0 20px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  flex-shrink: 0;
+}
+
+/* ============================================================================ 
+  Table Styles Css
+  =============================================================================== */
+.table-container {
+  margin-top: 20px;
+  overflow-x: hidden;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.modern-table {
+  width: 100%;
+  min-width: 500px;
+  border-collapse: collapse;
+}
+
+.modern-table thead {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.modern-table th {
+  padding: 12px 16px;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.modern-table td {
+  padding: 5px;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+.modern-table th {
+  font-weight: 600;
+  color: #e0e0e0;
+}
+
+.modern-table td {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #f0f0f0;
+}
+
+.modern-table tbody tr:hover {
+  transition: all 0.1s ease-in-out;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.Delete {
+  border: 1px solid red;
+  background-color: white;
+  border-radius: 5px;
+  color: red;
+  padding: 2px 15px;
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.Edit {
+  border: 1px solid blue;
+  background-color: white;
+  border-radius: 5px;
+  color: blue;
+  padding: 2px 15px;
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  #Main_Content {
+    margin-top: 60px;
+    padding: 20px 15px;
+  }
+
+  .Upper_Text h2 {
+    font-size: 1.5rem;
+    border-width: 3px;
+  }
+
+  .Upper_Text p {
+    font-size: 0.9rem;
+  }
+
+  .Input_Section {
+    flex-direction: column;
+  }
+
+  .Input_Section input {
+    padding: 10px 10px;
+  }
+
+  .Input_Section input,
+  .Input_Section .Button {
+    width: 100%;
+  }
+
+  .Input_Section .Button {
+    width: 50%;
+    margin: auto;
+  }
+
+  .modern-table {
+    min-width: 100%;
+    font-size: 0.9rem;
+  }
+}
